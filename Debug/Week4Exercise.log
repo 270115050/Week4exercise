@@ -1,0 +1,3 @@
+﻿  Week4Exercise.cpp
+C:\Users\270115050\OneDrive - UP Education\Desktop\CPP\Week4Exercise\Week4Exercise.cpp(30,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Week4Exercise.vcxproj -> C:\Users\270115050\OneDrive - UP Education\Desktop\CPP\Week4Exercise\Debug\Week4Exercise.exe
