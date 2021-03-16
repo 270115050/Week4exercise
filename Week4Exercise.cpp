@@ -2,7 +2,6 @@
 //
 
 #include <iostream>
-#include <math.h>
 using namespace std;
 int main()
 {
@@ -61,7 +60,7 @@ again:
         do {
             cout << "Enter month 1-12 to check how many days it has: ";
             cin >> month;
-            if (month <= 12) {
+            if (month <= 12 && month != 2) {
                 if (month % 2 == 0) {
                     cout << "This month has 30 days";
                 }
@@ -69,9 +68,12 @@ again:
                     cout << "This month has 31 days";
                 }
             }
+            else if (month == 2)
+                cout << "This month has 28 days";
             else
                 cout << "Invalid month" << endl;
         } while (month > 12);
+
 
         break;
 
